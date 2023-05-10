@@ -345,7 +345,7 @@ body {
 }
 
 .card-content {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .card-text {
@@ -371,6 +371,7 @@ body {
   background-color: var(--color-iris);
   border-radius: 50%;
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 12px;
 }
@@ -380,11 +381,19 @@ body {
   background-color: var(--color-ocean);
 }
 
+.team-social-icon {
+  fill: var(--color-cloud);
+}
+
 /**
   |============================
   | Customers
   |============================
 */
+
+.customers-title {
+  line-height: 1.1;
+}
 
 .customers-list {
   display: flex;
@@ -406,6 +415,7 @@ body {
   align-items: center;
   border: 1px solid var(--color-light-slate);
   border-radius: 4px;
+  color: var(--color-light-slate);
 
   padding: 16px 32px;
 }
@@ -413,15 +423,17 @@ body {
 .customers-img:hover,
 .customers-img:focus {
   border: 1px solid var(--color-ocean);
+
+  color: var(--color-ocean);
 }
 
 .customers-icon {
-  fill: var(--color-light-slate);
+  fill: currentColor;
 }
 
 .customers-icon:hover,
 .customers-icon:focus {
-  fill: var(--color-ocean);
+  fill: currentColor;
 }
 
 /**
@@ -437,8 +449,12 @@ body {
 
 .footer-container {
   display: flex;
-  gap: 120px;
+
   align-items: baseline;
+}
+
+.footer-logo-container {
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -483,12 +499,17 @@ body {
   border-radius: 50%;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 8px;
 }
 
 .footer-social-img:hover,
 .footer-social-img:focus {
   background-color: var(--color-green);
+}
+
+.footer-social-icon {
+  fill: var(--color-cloud);
 }
 
 /**

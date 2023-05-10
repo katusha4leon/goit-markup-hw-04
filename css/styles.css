@@ -375,7 +375,8 @@ body {
   padding: 12px;
 }
 
-.team-social-img:hover {
+.team-social-img:hover,
+.team-social-img:focus {
   background-color: var(--color-ocean);
 }
 
@@ -409,7 +410,8 @@ body {
   padding: 16px 32px;
 }
 
-.customers-img:hover {
+.customers-img:hover,
+.customers-img:focus {
   border: 1px solid var(--color-ocean);
 }
 
@@ -417,7 +419,8 @@ body {
   fill: var(--color-light-slate);
 }
 
-.customers-icon:hover {
+.customers-icon:hover,
+.customers-icon:focus {
   fill: var(--color-ocean);
 }
 
@@ -483,7 +486,8 @@ body {
   padding: 8px;
 }
 
-.footer-social-img:hover {
+.footer-social-img:hover,
+.footer-social-img:focus {
   background-color: var(--color-green);
 }
 
